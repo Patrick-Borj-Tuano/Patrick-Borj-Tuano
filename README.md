@@ -1,5 +1,5 @@
-Hello This is my first time using Git and Github.
-This is the first folder using editing Github through Visual Studio Code
+Hello, This is my first time using Git and Github.
+This is the first file editing Github through Visual Studio Code
 
 I'm Patrick Borj Tuaño
 
