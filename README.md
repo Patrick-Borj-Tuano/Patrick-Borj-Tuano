@@ -31,15 +31,15 @@ Thanks for stopping by, and let's embark on this coding adventure together!
 
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-🚀 Git Commands Cheat Sheet
+# 🚀 Git Commands Cheat Sheet
 
-1. git clone 
+1. # git clone 
     - **Clone Repository 📥**
     - **Usage:** Clone a repository into a new directory.
     - **Command:**
      git clone https://github.com/example/repo.git
 
-2. git branch
+2. # git branch
     - **Branch Operations 🌿**
     - **Usage:** List, create, or delete branches in your repository.
     - **Commands:**
@@ -52,8 +52,8 @@ Thanks for stopping by, and let's embark on this coding adventure together!
      # Delete a branch
      git branch -d old-feature
 
-3. git add
-    -**Stage Changes 🔄**
+3. # git add
+    - **Stage Changes 🔄**
     - **Usage:** Stage changes for the next commit.
     - **Commands:**
      # Stage a specific file
@@ -62,13 +62,13 @@ Thanks for stopping by, and let's embark on this coding adventure together!
      # Stage all changes
      git add .
 
-4. git commit 
+4. # git commit 
     - **Commit Changes 📝**
     - **Usage:** Record changes to the repository.
     - **Command:**
      git commit -m "Add new feature: awesome functionality"
 
-5. git pull
+5. # git pull
     -   **Pull Remote Changes 🔄**
     - **Usage:** Fetch changes from a remote repository and merge them into your local branch.
     - **Command:**
