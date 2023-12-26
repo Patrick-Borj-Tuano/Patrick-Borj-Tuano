@@ -43,23 +43,23 @@ Thanks for stopping by, and let's embark on this coding adventure together!
 - **Branch Operations 🌿**
 - **Usage:** List, create, or delete branches in your repository.
 - **Commands:**
-    # List all branches
+    ## List all branches
     git branch
 
-    # Create a new branch
+    ## Create a new branch
     git branch new-feature
 
-    # Delete a branch
+    ## Delete a branch
     git branch -d old-feature
 
 # 3. git add
 - **Stage Changes 🔄**
 - **Usage:** Stage changes for the next commit.
 - **Commands:**
-    # Stage a specific file
+    ## Stage a specific file
     git add filename.txt
 
-    # Stage all changes
+    ## Stage all changes
     git add .
 
 # 4. git commit 
@@ -69,7 +69,30 @@ Thanks for stopping by, and let's embark on this coding adventure together!
     git commit -m "Add new feature: awesome functionality"
 
 # 5. git pull
--   **Pull Remote Changes 🔄**
+- **Pull Remote Changes 🔄**
 - **Usage:** Fetch changes from a remote repository and merge them into your local branch.
 - **Command:**
     git pull origin main
+
+# 6. git fetch
+- **Fetch Remote 💿**
+- **Usage:** Fetch downloads objects and refs from a remote repository.
+- **Command:**
+
+    ## Fetch from the default remote repository, origin, for all branches
+    git fetch
+
+    ## Fetch changes for a specific branch from the remote repository
+    git fetch cheatSeven -- mainCheat.txt
+
+# 7. git diff
+- **Find diff Between Commits 👀**
+- **Usage:** Show changes between commits, commit and working tree, etc.
+- **Command:**
+    ## See the changes between the working directory and the staging area
+    git diff
+
+    ## See changes for a specific file between a specific commit and current working directory
+    git diff oneTwoThree -- Example.txt
+    
+    
